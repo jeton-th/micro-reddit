@@ -1,5 +1,6 @@
 class User < ApplicationRecord
   has_many :posts
+  has_many :comments
 
   before_save { self.email = email.downcase }
   validates :username, presence: true, length: {minimum: 6, maximum: 50}
