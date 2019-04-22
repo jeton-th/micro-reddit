@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  body: MyString
+  upvotes: 1
+  user: one
+  post: one
+
+two:
+  body: MyString
+  upvotes: 1
+  user: two
+  post: two
